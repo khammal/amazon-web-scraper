@@ -4,10 +4,10 @@ A Python script that tracks the price of an Amazon product and sends an email to
 
 ## Demo 
 ### When the price becomes lower
-<img src="demos/web_scraper_demo.gif" width="800" height="150"/>
+<img src="demos/web_scraper_demo.gif" width="600" height="109"/>
 
 ### Email
-<img src="demos/web_scraper_demo_email.gif" width="800" height="300"/>
+<img src="demos/web_scraper_demo_email.gif" width="600" height="165"/>
 
 ## Notes
 * If you get the AttributeError: 'NoneType' object has no attribute 'get_text', then Amazon is blocking the request. The ids are correct as of August 2023, and it does not change if you use lxml, html.parser, or html5lib. 
